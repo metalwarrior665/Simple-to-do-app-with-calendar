@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Appka.exe" version="1.0.0.3" publicKeyToken="1b1e17df37ec8b89" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Appka" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Appka.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Appka.exe" size="16368">
+      <assemblyIdentity name="Appka" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/tz4TD97XjeFJIXwLplVEE1/QFPs8AdyjXtWGNZILrE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Appka.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SB1NAOV\Uživatel" issuerKeyHash="1551e58b1cb1503dd7fc605be03f82a430194048" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ByviUvqsfkobG47jaOkO/6cr8HPA/qYnHhxuO2ZD7w8=</DigestValue></Reference></SignedInfo><SignatureValue>nMyVQQNsSrXCEu0bmygvPIbWTl0uqB+GOydRr+/fu5FvXtxPqFRxO7FAUX1rBksv4mMWQeNywztUcs+FWHijMCchXd2U6zCkCU9DC0VGQKeZKsQvKr+k36Xoa9AO0TFu/DlsM72qmoFQDr2swVk8yrPbCbL1R8myj4gtKyP0WWI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1Ya57S6Gy3H5RYQpM63q/pFs0S9mJCaNpiJgqBY+frdQIVx1k79wXRSfTDPI7WyucxWBjBp/CZw0f+VhM8J1WFSVKbxw6OWja4eQLMMCLznSdNoMhrr+RTa7CKU8ut8myOBpwieKELihGqPFUiCiT+6A62+PE2Is4SLro4meQUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0fef43663b6e1c1e27a6fec073f02ba7ff0ee968e38e1b1b4a7eacfa52e22b07" Description="" Url=""><as:assemblyIdentity name="Appka.exe" version="1.0.0.3" publicKeyToken="1b1e17df37ec8b89" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SB1NAOV\Uživatel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xpM1x5zSCzLuMARMXwtF4BBuU69ZsPltsZ/X7bhbxFY=</DigestValue></Reference></SignedInfo><SignatureValue>GzNIMInS2Qztlhu+yCj6R9LJse7R3r0Wfpffvvl3Psqkm+XlljvMLoesasYu0Y8u0ZFIQ71Ocm2gPrHqc30OV/WmORStDRAEvERiovq6B2FhkHsbfvPRSgzMpBAliIyz/y8SAOLK946Uwm89vh+IAqnAdKqxBNm00XrRYRGwico=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1Ya57S6Gy3H5RYQpM63q/pFs0S9mJCaNpiJgqBY+frdQIVx1k79wXRSfTDPI7WyucxWBjBp/CZw0f+VhM8J1WFSVKbxw6OWja4eQLMMCLznSdNoMhrr+RTa7CKU8ut8myOBpwieKELihGqPFUiCiT+6A62+PE2Is4SLro4meQUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQTIoFhT+baL9H/KQffuxnvjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFMAQgAxAE4AQQBPAFYAXABVAX4AaQB2AGEAdABlAGwwHhcNMTcwNTAxMTcwODA1WhcNMTgwNTAxMjMwODA1WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFMAQgAxAE4AQQBPAFYAXABVAX4AaQB2AGEAdABlAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANWGue0uhstx+UWEKTOt6v6RbNEvZiQmjaYiYKgWPn63UCFcdZO/cF0Un0wzyO1srnMVgYwafwmcNH/lYTPCdVhUlSm8cOjlo2uHkCzDAi850nTaDIa6/kU2uwilPLrfJsjgacInihC4oRqjxVIgok/ugOtvjxNiLOEi66OJnkFBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA0olA8WYZBV5HSc3tcsPvYKRSJH6JkJSWUJlxJvZK1LEnmcJ2NiZKkd7dJLZCf2XM6C89GEr+zj9uwMmoEZ4F97a1c1jMViKiQWfEZ5yGs+eqibcQcLQh3Ky/haLOjCYyiLPNAzJxxPjfGIClVajpv3v5FZneVSZAarTg4F9oqYE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
